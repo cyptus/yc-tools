@@ -12,6 +12,5 @@ chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
         
         var tab = window.open();
         tab.document.write(result);
-        //sendResponse();
     }
 });
